@@ -76,7 +76,7 @@
   width: 150px;
   border: 2px solid rgb(90, 89, 89);
   border-radius: 5px;
-  color: rgb(61, 60, 60);
+  
   background-color: ;
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
@@ -84,6 +84,7 @@
 
 .generate:hover {
   background-color: rgb(161, 161, 161);;
+  color: white;
 }
 
 

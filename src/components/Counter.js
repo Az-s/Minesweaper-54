@@ -4,9 +4,9 @@ const Counter = (props) => {
     
     const [counter, setCounter] = useState(0);
 
-    // const clickCounter = () => {
-    //     setCounter(counter + 1)
-    // };
+    const clickCounter = () => {
+        setCounter(counter + 1)
+    };
 
     return (
         <div>
@@ -16,3 +16,4 @@ const Counter = (props) => {
 };
 
 export default Counter;
+    
