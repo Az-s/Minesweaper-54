@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.mine-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 220px;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.Cells {
+  background-color: rgb(61, 61, 61);
+  width: 30px;
+  height: 30px;
+  gap: 1;
+  cursor: pointer;
+}
+
+.Cells:hover {
+  background-color: rgb(114, 112, 112);
+}
+
+.Cells .Clicked{
+  background-color: rgb(255, 255, 255);
+  width: 30px;
+  height: 30px;
+  gap: 1;
+}
+
+.generate {
+  margin-top: 20px;
+  padding: 5px;
+  width: 150px;
+  border: 2px solid rgb(90, 89, 89);
+  border-radius: 5px;
+  color: rgb(61, 60, 60);
+  background-color: ;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+.generate:hover {
+  background-color: rgb(161, 161, 161);;
+}
+
+
+.btn {
+  cursor: pointer;
+}
